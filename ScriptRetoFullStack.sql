@@ -20,6 +20,9 @@ insert into area (area_name) values ("Tecnologias de la informacion");
 insert into area (area_name) values ("Marketing");
 insert into area (area_name) values ("Operaciones");
 
+INSERT INTO user (email, password, profile_picture, is_enabled, account_no_expired, account_no_locked, credential_no_expired)
+VALUES ('example@example.com', '$2a$10$/yfvz3aJA5aOLHZmf5zYmePAbX6HUxUus00KYL3lY4L8DmX7di9c.', '', TRUE, TRUE, TRUE, TRUE);
+
 INSERT INTO employer (area_id, employer_name, employer_email, employer_phone_number) VALUES
 (1, 'Juan Pérez', 'juan.perez@example.com', '123456789'),
 (2, 'Ana Gómez', 'ana.gomez@example.com', '987654321'),
